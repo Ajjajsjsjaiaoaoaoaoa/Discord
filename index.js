@@ -1,4 +1,4 @@
-peroconst 'Discord' = require('discord.js-selfbot-v13');
+peroconst Discord = require('discord.js-selfbot-v13');
 const client = new Discord.Client({
   readyStatus: false,
   checkUpdate: false
