@@ -1,4 +1,4 @@
-const Discord = require('discord.js-selfbot-v13');
+peroconst Discord = require('discord.js-selfbot-v13');
 const client = new Discord.Client({
   readyStatus: false,
   checkUpdate: false
@@ -52,5 +52,5 @@ client.on('ready', async () => {
   }, 1000); // Update every second
 });
 
-const mySecret = process.env[OTgxMjY2MDM0NTc5MzQ5NTI0.GBCbRx.t8f_snF4SDmnmayOstQ96L1ThHIz0fhNgKf068];
-client.login(TOKEN);
+const mySecret = process.env[TOKEN];
+client.login(OTgxMjY2MDM0NTc5MzQ5NTI0.GBCbRx.t8f_snF4SDmnmayOstQ96L1ThHIz0fhNgKf068);
